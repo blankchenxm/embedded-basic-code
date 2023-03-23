@@ -2,7 +2,11 @@
 #define BUTTONEVENT_H
 
 #include "Arduino.h"
-#define CONFIG_ENCODER_KEY_PIN 22
+// pin number connected with button key
+#define CONFIG_BUTTON_KEY_PIN 22  
+
+#define LOW_VOLTAGE  0X0
+#define hIGH_VOLTAGE  0X1
 
 typedef enum
 {
@@ -10,14 +14,14 @@ typedef enum
     Event_PRESS,
     Event_LONG_PRESS,
     Event_RELEASE
-} Event_t;
+} Button_Event;
 
 typedef enum
 {
     STATE_NO_PRESS,
     STATE_PRESSING,
     STATE_LONG_PRESSING
-} State_t;
+} Button_State;
 
 class BUTTONEVENT
 {
@@ -29,14 +33,17 @@ class BUTTONEVENT
  
         uint32_t GetTickElaps(uint32_t prevTick);
         void EventMonitor(bool isPress);
+        
 
     public:
-        static Event_t Event_status;
-        static State_t State_status;
+        Button_Event Event_status;
+        Button_State State_status;
 
         BUTTONEVENT(uint16_t longPressTime = 2000);
         void EventAttach(FuncCallback_t function);
         void Button_Update();
+        //set ifDeattach = true if don't want to trigger callback;
+        bool ifDeattach = false;
 
 };
 

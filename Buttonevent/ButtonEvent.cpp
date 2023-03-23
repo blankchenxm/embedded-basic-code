@@ -2,14 +2,9 @@
 
 #define GET_TICK() millis()
 
-
 #ifndef UINT32_MAX
 #  define UINT32_MAX  4294967295u
 #endif
-
-Event_t BUTTONEVENT::Event_status = Event_NONE;
-State_t BUTTONEVENT::State_status = STATE_NO_PRESS;
-
 
 void BUTTONEVENT::EventMonitor(bool isPress)
 {
@@ -22,23 +17,29 @@ void BUTTONEVENT::EventMonitor(bool isPress)
     {
         Event_status = Event_PRESS;
         State_status = STATE_PRESSING;
-        eventCallback(this,Event_PRESS);
+        if(!ifDeattach)  
+            {(*eventCallback)(this,Event_PRESS);}
         lastPressTime = GET_TICK();
+        return;
     }
 
     if(!isPress && State_status == STATE_PRESSING)
     {
         Event_status = Event_RELEASE;
         State_status = STATE_NO_PRESS;
-        eventCallback(this,Event_RELEASE);
+        if(!ifDeattach) 
+            {eventCallback(this,Event_RELEASE);}
+        return;
     }
 
     if (isPress && GetTickElaps(lastPressTime) >= config_longPressTime && State_status == STATE_PRESSING)
     {        
         Event_status = Event_LONG_PRESS;
         State_status = STATE_LONG_PRESSING;
-        eventCallback(this,Event_LONG_PRESS);
+        if(!ifDeattach) 
+            {(*eventCallback)(this,Event_LONG_PRESS);}
         lastPressTime = 0;
+        return;
     }
 
     if(isPress && State_status == STATE_LONG_PRESSING)
@@ -50,7 +51,9 @@ void BUTTONEVENT::EventMonitor(bool isPress)
     {
         Event_status = Event_RELEASE;
         State_status = STATE_NO_PRESS;
-        eventCallback(this,Event_RELEASE);
+        if(!ifDeattach) 
+            {(*eventCallback)(this,Event_RELEASE);}
+        return;
     }
 
 
@@ -80,14 +83,19 @@ void BUTTONEVENT::EventAttach(FuncCallback_t function)
     eventCallback = function;
 }
 
+
+//long press time initialzie
 BUTTONEVENT::BUTTONEVENT(uint16_t longPressTime)
 {
     config_longPressTime = longPressTime;
-    pinMode(CONFIG_ENCODER_KEY_PIN,INPUT_PULLUP);
+    pinMode(CONFIG_BUTTON_KEY_PIN,INPUT_PULLUP);
+    Event_status = Event_NONE;
+    State_status = STATE_NO_PRESS;
     
 }
 
+//pull up resistor connencted, thus detect low voltage
 void BUTTONEVENT::Button_Update()
 {
-    EventMonitor(digitalRead(CONFIG_ENCODER_KEY_PIN) == 0x0);
+    EventMonitor(digitalRead(CONFIG_BUTTON_KEY_PIN) == LOW_VOLTAGE);
 }
