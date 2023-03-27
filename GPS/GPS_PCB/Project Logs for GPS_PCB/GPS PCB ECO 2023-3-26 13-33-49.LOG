@@ -1,0 +1,148 @@
+Added Component: Designator=A1(ipex1)
+Add component (AddParameter): Name = "Add into BOM"; Value = "yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Convert to PCB"; Value = "yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet"; Value = "https://atta.szlcsc.com/upload/public/pdf/source/20220627/A0C2EF411B6F3EC53ED1A4F491E26EB6.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device"; Value = "IPEX1-TXZ 142"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "JLCPCB Part Class"; Value = "Extended Part"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LCSC Part Name"; Value = "IPEX天线座 内针 RF同轴连接器"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "SHOU HAN(首韩)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part"; Value = "IPEX1-TXZ 142"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "IPEX1-TXZ 142"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "LCSC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Footprint"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part"; Value = "C3151745"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Symbol"; Value = "IPEX1-TXZ 142"; VariantName = "[No Variations]"
+Added Component: Designator=C1(0402_C)
+Added Component: Designator=C2(0402_C)
+Added Component: Designator=C3(0402_C)
+Added Component: Designator=D1(1N4148)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "供应商链接"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.szlcsc.com/product/details_2485.html"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Notepad"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SOD-323"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "LC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SuppliersPartNumber"; Value = "C2128"; VariantName = "[No Variations]"
+Added Component: Designator=GPS1(ATGM336H-5N-31)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://datasheet.lcsc.com/szlcsc/ZHONGKEWEI-ATGM336H-5N31_C90770.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Geometry.Height"; Value = "2.6mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "ZHONGKEWEI"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "ATGM336H-5N31"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=L1(0402_L)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "供应商链接"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.szlcsc.com/product/details_1398.html"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Notepad"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "LC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SuppliersPartNumber"; Value = "C1046"; VariantName = "[No Variations]"
+Added Component: Designator=R1(0402_R)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "供应商链接"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.szlcsc.com/product/details_26562.html"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Notepad"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "LC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SuppliersPartNumber"; Value = "C25819"; VariantName = "[No Variations]"
+Added Component: Designator=R2(0402_R)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "供应商链接"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.szlcsc.com/product/details_26562.html"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Notepad"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "LC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SuppliersPartNumber"; Value = "C25819"; VariantName = "[No Variations]"
+Added Component: Designator=R3(0402_R)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "供应商链接"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.szlcsc.com/product/details_26562.html"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Notepad"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "LC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SuppliersPartNumber"; Value = "C25819"; VariantName = "[No Variations]"
+Added Component: Designator=SC1(XH414HG)
+Add component (AddParameter): Name = "Add into BOM"; Value = "yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Body Height"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Convert to PCB"; Value = "yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Cycle Life Expectancy"; Value = "10000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet"; Value = "https://atta.szlcsc.com/upload/public/pdf/source/20150910/1457707350979.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device"; Value = "XH414HG-IV01E_C38065"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Equivalent Series Resistance(ESR)"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "JLCPCB Part Class"; Value = "Extended Part"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LCSC Part Name"; Value = "80000uF 3.3V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Leakage Current(DCL)"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lifetime @ Temp"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "ABLIC(艾普凌科)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part"; Value = "XH414HG-IV01E"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "80000uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-20℃~+60℃"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Voltage"; Value = "3.3V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "LCSC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Footprint"; Value = "SMD,4.8x1.85mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part"; Value = "C38065"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Symbol"; Value = "XH414HG-IV01E"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "80000uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "φD"; Value = "4.8mm"; VariantName = "[No Variations]"
+Added Component: Designator=U1(AT24C32A)
+Added Component: Designator=U2(HEADER)
+Added Pin To Net: NetName=GND Pin=A1-2
+Added Pin To Net: NetName=GND Pin=A1-3
+Added Pin To Net: NetName=GND Pin=C1-1
+Added Pin To Net: NetName=GND Pin=C2-1
+Added Pin To Net: NetName=GND Pin=C3-1
+Added Pin To Net: NetName=GND Pin=GPS1-1
+Added Pin To Net: NetName=GND Pin=GPS1-10
+Added Pin To Net: NetName=GND Pin=GPS1-12
+Added Pin To Net: NetName=GND Pin=SC1-2
+Added Pin To Net: NetName=GND Pin=U1-1
+Added Pin To Net: NetName=GND Pin=U1-2
+Added Pin To Net: NetName=GND Pin=U1-3
+Added Pin To Net: NetName=GND Pin=U1-4
+Added Pin To Net: NetName=GND Pin=U1-7
+Added Pin To Net: NetName=GND Pin=U2-2
+Added Net: Name=GND
+Added Pin To Net: NetName=NetA1_1 Pin=A1-1
+Added Pin To Net: NetName=NetA1_1 Pin=GPS1-11
+Added Pin To Net: NetName=NetA1_1 Pin=L1-2
+Added Net: Name=NetA1_1
+Added Pin To Net: NetName=NetD1_2 Pin=D1-2
+Added Pin To Net: NetName=NetD1_2 Pin=GPS1-6
+Added Pin To Net: NetName=NetD1_2 Pin=SC1-1
+Added Net: Name=NetD1_2
+Added Pin To Net: NetName=NetGPS1_2 Pin=GPS1-2
+Added Pin To Net: NetName=NetGPS1_2 Pin=R1-2
+Added Net: Name=NetGPS1_2
+Added Pin To Net: NetName=NetGPS1_3 Pin=GPS1-3
+Added Pin To Net: NetName=NetGPS1_3 Pin=R2-2
+Added Net: Name=NetGPS1_3
+Added Pin To Net: NetName=NetLED1_K Pin=R3-1
+Added Net: Name=NetLED1_K
+Added Pin To Net: NetName=PPS Pin=GPS1-4
+Added Pin To Net: NetName=PPS Pin=R3-2
+Added Pin To Net: NetName=PPS Pin=U2-5
+Added Net: Name=PPS
+Added Pin To Net: NetName=RXD Pin=R2-1
+Added Pin To Net: NetName=RXD Pin=U2-4
+Added Net: Name=RXD
+Added Pin To Net: NetName=SCL Pin=GPS1-17
+Added Pin To Net: NetName=SCL Pin=U1-6
+Added Net: Name=SCL
+Added Pin To Net: NetName=SDA Pin=GPS1-16
+Added Pin To Net: NetName=SDA Pin=U1-5
+Added Net: Name=SDA
+Added Pin To Net: NetName=TXD Pin=R1-1
+Added Pin To Net: NetName=TXD Pin=U2-3
+Added Net: Name=TXD
+Added Pin To Net: NetName=VCC_RF Pin=GPS1-9
+Added Pin To Net: NetName=VCC_RF Pin=GPS1-14
+Added Pin To Net: NetName=VCC_RF Pin=L1-1
+Added Net: Name=VCC_RF
+Added Pin To Net: NetName=VCC Pin=C1-2
+Added Pin To Net: NetName=VCC Pin=C2-2
+Added Pin To Net: NetName=VCC Pin=C3-2
+Added Pin To Net: NetName=VCC Pin=D1-1
+Added Pin To Net: NetName=VCC Pin=GPS1-5
+Added Pin To Net: NetName=VCC Pin=GPS1-8
+Added Pin To Net: NetName=VCC Pin=U1-8
+Added Pin To Net: NetName=VCC Pin=U2-1
+Added Net: Name=VCC
+Added Class: Name=GPS

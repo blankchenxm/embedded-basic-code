@@ -1,0 +1,43 @@
+Added Component: Designator=SC1(XH414HG)
+Add component (AddParameter): Name = "Add into BOM"; Value = "yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Body Height"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Convert to PCB"; Value = "yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Cycle Life Expectancy"; Value = "10000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet"; Value = "https://atta.szlcsc.com/upload/public/pdf/source/20150910/1457707350979.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device"; Value = "XH414HG-IV01E_C38065"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Equivalent Series Resistance(ESR)"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "JLCPCB Part Class"; Value = "Extended Part"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LCSC Part Name"; Value = "80000uF 3.3V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Leakage Current(DCL)"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lifetime @ Temp"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "ABLIC(∞¨∆’¡Ëø∆)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part"; Value = "XH414HG-IV01E"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "80000uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-20°Ê~+60°Ê"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Voltage"; Value = "3.3V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "LCSC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Footprint"; Value = "SMD,4.8x1.85mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part"; Value = "C38065"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Symbol"; Value = "XH414HG-IV01E"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "80000uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "¶’D"; Value = "4.8mm"; VariantName = "[No Variations]"
+Added Component: Designator=U1(AT24C32A)
+Added Component: Designator=U2(HEADER)
+Added Pin To Net: NetName=NetD1_2 Pin=SC1-1
+Added Pin To Net: NetName=GND Pin=SC1-2
+Added Pin To Net: NetName=GND Pin=U1-1
+Added Pin To Net: NetName=GND Pin=U1-2
+Added Pin To Net: NetName=GND Pin=U1-3
+Added Pin To Net: NetName=GND Pin=U1-4
+Added Pin To Net: NetName=SDA Pin=U1-5
+Added Pin To Net: NetName=SCL Pin=U1-6
+Added Pin To Net: NetName=GND Pin=U1-7
+Added Pin To Net: NetName=VCC Pin=U1-8
+Added Pin To Net: NetName=VCC Pin=U2-1
+Added Pin To Net: NetName=GND Pin=U2-2
+Added Pin To Net: NetName=TXD Pin=U2-3
+Added Pin To Net: NetName=RXD Pin=U2-4
+Added Pin To Net: NetName=PPS Pin=U2-5
+Added Member To Class: ClassName=GPS Member=Component SC1 XH414HG-IV01E_C38065
+Added Member To Class: ClassName=GPS Member=Component U1 AT24C32A
+Added Member To Class: ClassName=GPS Member=Component U2 HEADER
